@@ -44,3 +44,14 @@ body {
     font-size: 15px;
     cursor: pointer;
 }
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    #timer {
+        width: 300px;
+        min-width: 200px;
+        height: 200px;
+        margin: 150px auto;
+        padding: 70px 0px;
+    }
+}
