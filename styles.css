@@ -5,23 +5,34 @@
 body {
     padding: 0;
     margin: 0;
+    height: 100%;
+    background-image: url(images/image.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #timer {
-    background-color: #607d8b;
-    width: 250px;
-    padding: 20px 30px;
-    margin: 10px auto;
+    width: 350px;
+    min-width: 200px;
+    height: 200px;
+    min-height: 200px;
+    margin: 220px auto;
+    padding: 70px 100px;
+    border-radius: 20%;
     text-align: center;
+    background-color: #607d8b;
 }
 
-#timer a, .stopwatch {
-    color: #bbbbbb;
+#timer a,
+.stopwatch {
+    color: #fff;
 }
 
 #timer a {
-    text-decoration: none;
     margin: 0 3px;
+    text-decoration: none;
 }
 
 .stopwatch {
@@ -30,6 +41,6 @@ body {
 }
 
 .controls {
-    font-size: 12px;
+    font-size: 15px;
     cursor: pointer;
 }
